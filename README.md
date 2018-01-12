@@ -1,5 +1,5 @@
-# water-fountains.org
-An interactive web application for discovering Zurich’s fountains, promoting and supporting both Open Data and Open Source Software.
+# The original Zurich Water Fountains Map
+An interactive web application for discovering Zurich’s fountains.
 
 ## Open Data
 The data displayed in this app was downloaded from [Open Data Zurich](https://data.stadt-zuerich.ch/).
