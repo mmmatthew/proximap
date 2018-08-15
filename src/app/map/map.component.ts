@@ -393,11 +393,12 @@ showSelectedPopupOnMap(fountain:Feature<any>){
         "layout": {
           "icon-image": "drinking-water-15",
           "icon-padding": 0,
-          // "icon-allow-overlap":true,
-          // "text-field": ["get", "name"],
-          // "text-size": 8,
-          // "text-optional": true,
-          // "text-offset": [0,2]
+          // Display fountain names as map labels
+          "icon-allow-overlap":true,
+          "text-field": ["get", "name"],
+          "text-size": 8,
+          "text-optional": true,
+          "text-offset": [0,2]
         },
         "paint":{
           "icon-opacity": [
